@@ -12,6 +12,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 800px;
 }
 
 section {
@@ -45,7 +46,7 @@ button {
 button:hover {
     background-color: #BC4C2A;
     color: white;
-    transition: all .4s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 button:disabled {
